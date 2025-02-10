@@ -1,1 +1,75 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Lab 3 - Coffee Order Form</title>
+  </head>
+  <body>
+    <h1>Coffee Order Form</h1>
+    <form action="https://www.w3schools.com/action_page.php" method="get"> 
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+      </p>
+      <p>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+      </p>
+      <p>
+        <label for="coffeeType">Coffee Type:</label>
+        <select id="coffeeType" name="coffee_type">
+          <option value="">--Please choose an option--</option>
+          <option value="hot_brew">Hot Brew</option>
+          <option value="cold_brew">Cold Brew</option>
+          <option value="cappuccino">Cappuccino</option>
+          <option value="americano">Americano</option>
+          <option value="espresso">Espresso</option>
+      </p>
+      <fieldset>
+        <legend>Choose Size:</legend>
+        <ul>
+          <li>
+            <label for="small">Small</label>
+            <input type="radio" id="small" name="coffee_size" value="small" checked />
+          </li>
+          <li>
+            <label for="medium">Medium</label>
+            <input type="radio" id="medium" name="coffee_size" value="medium" />
+          </li>
+          <li>
+            <label for="large">Large</label>
+            <input type="radio" id="large" name="coffee_size" value="large" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Any Extras?</legend>
+        <ul>
+          <li>
+            <label for="extra_shot">Extra Shot</label>
+            <input type="checkbox" id="extra_shot" name="extras" value="extra_shot" />
+          </li>
+          <li>
+            <label for="whipped_cream">Whipped Cream</label>
+            <input type="checkbox" id="whipped_cream" name="extras" value="whipped_cream" />
+          </li>
+          <li>
+            <label for="almond_milk">Caramel</label>
+            <input type="checkbox" id="caramel" name="extras" value="caramel" />
+          </li>
+          <li>
+            <label for="oat_milk">Vanilla</label>
+            <input type="checkbox" id="vanilla" name="extras" value="vanilla" />
+          </li>
+        </ul>  
+      </fieldset>
+      <p>
+        <label for="special_instructions">Special Instructions</label>
+        <textarea id="special_instructions" name="coffee_instructions"></textarea>
+      </p>
+      <p>
+        <button type="submit">Submit Order</button>
+      </p>
+    </form>
+  </body>
+</html>
