@@ -3,7 +3,7 @@
   font: arial;
 }
 h1 {
-  color: purple;
+  color: magenta;
   align-items: center;
 }
 p {
@@ -17,7 +17,7 @@ ul li::marker {
   color: red;
 }
 li {
-  color: magenta;
+  color: green;
 }
 a {
   color: blue;
