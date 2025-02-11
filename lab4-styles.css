@@ -21,7 +21,9 @@ li {
 }
 a {
   color: blue;
-  text-decorations:none;
+}
+a:hover {
+  text-decoration: none;
 }
 .styled-box {
   border: 2px solid black;
