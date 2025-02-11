@@ -7,21 +7,21 @@ h1 {
   align-items: center;
 }
 p {
-  color: orange;
+  color: bloodorange;
   padding: 10px;
 }
 ul {
   list-style-type: disc;
 }
-ul: *:marker {
-  color: red
+li: *:marker {
+  color: red;
 }
 li {
-  color: green
+  color: green;
 }
 a {
   color: blue;
-  text-decorations: none;
+  text-decorations:none;
 }
 .styled-box {
   border: 2px solid black;
