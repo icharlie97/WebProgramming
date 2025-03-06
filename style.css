@@ -3,7 +3,7 @@
       background-color: beige;
       display: grid;
       grid-gap: 1em;
-      
+      justify-content: center;
     }
     .flex-container {
       display: flex;
