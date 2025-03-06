@@ -2,6 +2,8 @@
       font-family: Garamond, serif;
       background-color: beige;
       display: grid;
+      grid-gap: 1em;
+      
     }
     .flex-container {
       display: flex;
