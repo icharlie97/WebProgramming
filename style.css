@@ -16,6 +16,7 @@
       background-color: white;
     }
     .nav {
+      grid-column: 1 / 3;
       color: cream;
       border: black
       font-weight: bold;
