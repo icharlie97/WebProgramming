@@ -4,8 +4,6 @@
     }
     .flex-container {
       display: flex;
-      flex: 2;
-      flex-wrap: wrap;
       text-color: #4b3621;
     }
     .nav {
