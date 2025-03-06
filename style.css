@@ -11,6 +11,7 @@
     .flex-container {
       display: flex;
       column-gap: 10px;
+      row-gap: 10px;
       text-color: #4b3621;
       font-weight: bold;
       align-items: center:
