@@ -6,6 +6,8 @@
     .flex-container {
       display: flex;
       text-color: #4b3621;
+      font-weight: bold;
+      
     }
     .nav {
       color: cream;
