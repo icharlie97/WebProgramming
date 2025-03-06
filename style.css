@@ -6,7 +6,6 @@
       display: flex;
       flex: 2;
       flex-wrap: wrap;
-      flex-direction: row;
       text-color: #4b3621;
     }
     .nav {
