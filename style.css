@@ -13,10 +13,10 @@
       font-weight: bold;
       align-items: center:
       justify-content: center;
+      background-color: white;
     }
     .nav {
       color: cream;
-      background-color: white;
       border: black
       font-weight: bold;
       align-item: center;
