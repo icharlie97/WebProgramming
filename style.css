@@ -18,8 +18,12 @@
       color: cream;
       background-color: white;
       border: black
+      font-weight: bold;
     }
     h1 {
       color: darkbrown;
       font-weight: bold;
+    }
+    ul {
+      list-style-type: none;
     }
