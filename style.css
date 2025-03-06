@@ -2,7 +2,7 @@
       font-family: Garamond, serif;
       background-color: beige;
     }
-    .div {
+    .flex-container {
       display: flex;
       flex: 2;
       flex-wrap: wrap;
