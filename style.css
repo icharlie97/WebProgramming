@@ -6,7 +6,6 @@
       grid-gap: 1em;
       justify-content: center;
       text-align: center;
-      border: solid black;
     }
     .flex-container {
       display: flex;
@@ -17,12 +16,14 @@
       align-items: center:
       justify-content: center;
       background-color: white;
+      border: solid saddlebrown;
     }
     .nav {
       
       color: cream;
       border: black
       font-weight: bold;
+      border: solid saddlebrown;
     }
     h1 {
       color: darkbrown;
@@ -30,4 +31,9 @@
     }
     ul {
       list-style-type: none;
+      justify-content: center;
+      align-items: center;
+    }
+    header {
+      border: solid saddlebrown;
     }
