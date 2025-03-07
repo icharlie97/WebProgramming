@@ -1,5 +1,3 @@
-
-    }
     .main-content {
       grid-area: main;
     }
@@ -24,3 +22,4 @@
         'nav main main'
         'nav main main'
         'footer footer footer';
+   }
