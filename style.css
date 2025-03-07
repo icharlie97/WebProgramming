@@ -27,12 +27,6 @@
       color: darkbrown;
       font-weight: bold;
     }
-    ul {
-      list-style-type: square;
-    }
-    a:link {
-      color: eggshell;
-    }
     .footer {
       grid-area: footer;
     }
