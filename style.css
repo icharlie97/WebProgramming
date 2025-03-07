@@ -2,10 +2,17 @@
       font-family: Garamond, serif;
       background-color: saddlebrown;
       display: grid;
-      grid-column: 1 / 2;
+      grid-template-areas;
+        "header header header"
+        "nav    main   main"
+        "nav    main   main"
+        "footer footer footer"
       grid-gap: 1em;
       justify-content: center;
       text-align: center;
+    }
+    .main-content {
+      grid-area: main;
     }
     .flex-container {
       display: flex;
@@ -16,10 +23,12 @@
       justify-content: space-around;
     }
     .nav {
+      grid-area: nav;
       color: eggshell;
       font-weight: bold;
     }
-    h1 {
+    .header {
+      grid-area: header;
       color: darkbrown;
       font-weight: bold;
     }
@@ -31,4 +40,7 @@
     }
     a:link {
       color: eggshell;
+    }
+    .footer {
+      grid-area: footer;
     }
