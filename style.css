@@ -6,6 +6,8 @@
     }
     .grid-container {
       diplay: grid;
+      grid-template-columns: auto;
+      grid-template-columns: auto;
       justify-content: center;
       align-items: center;
     }
