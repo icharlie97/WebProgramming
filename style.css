@@ -12,11 +12,6 @@
     .main-content {
       grid-area: main;
     }
-    .flex-container {
-      display: flex;
-      column-gap: 10px;
-      text-color: wheat;
-      font-weight: bold;
     .nav {
       grid-area: nav;
     }
@@ -27,4 +22,10 @@
     }
     .footer {
       grid-area: footer;
+    }
+    .flex-container {
+      display: flex;
+      column-gap: 10px;
+      text-color: wheat;
+      font-weight: bold;
     }
