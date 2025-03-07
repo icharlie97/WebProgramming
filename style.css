@@ -8,8 +8,6 @@
         'nav main main'
         'nav main main'
         'footer footer footer';
-      justify-content: center;
-      align-items: center;
     }
     .main-content {
       grid-area: main;
