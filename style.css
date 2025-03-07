@@ -4,6 +4,9 @@
       justify-content: center;
       align-items: center;
     }
+    .grid-container {
+      diplay: grid;
+    }
     .main-content {
       grid-area: main;
     }
