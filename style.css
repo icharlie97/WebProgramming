@@ -1,6 +1,7 @@
     body {
       font-family: Garamond, serif;
       background-color: saddlebrown;
+      display: grid;
       justify-content: center;
       align-items: center;
     }
