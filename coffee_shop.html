@@ -5,6 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Java Haven</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+  .grid-container {
+      diplay: grid;
+      grid-template-columns: auto;
+      grid-template-columns: auto;
+      grid-template-areas:
+        "header header header"
+        "nav    main   main"
+        "nav    main   main"
+        "footer footer footer"
+      justify-content: center;
+      align-items: center;
+    }
+    .main-content {
+      grid-area: main;
+    }
+    .flex-container {
+      display: flex;
+      column-gap: 10px;
+      text-color: wheat;
+      font-weight: bold;
+    .nav {
+      grid-area: nav;
+    }
+    .header {
+      grid-area: header;
+      color: darkbrown;
+      font-weight: bold;
+    }
+    ul {
+      list-style-type: square;
+    }
+    a:link {
+      color: eggshell;
+    }
+    .footer {
+      grid-area: footer;
+    }
+    </style>
 </head>
 <body>
 <div class="grid-container">
