@@ -5,19 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Java Haven</title>
   <style>
-    .main-content {
+    grid-container > main {
     grid-area: main;
     }
-    .nav {
+    grid-container > nav {
       grid-area: nav;
     }
-    .header {
+    grid-container header {
       grid-area: header;
     }
-    .footer {
+    grid-container > footer {
       grid-area: footer;
     }
-   body {
+   grid-container {
       diplay: grid;
       grid-template-columns: auto;
       grid-template-rows: repeat(auto-fill, minmax(100vh, 1fr));
