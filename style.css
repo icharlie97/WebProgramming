@@ -1,34 +1,44 @@
     body {
       font-family: Garamond, serif;
       background-color: saddlebrown;
-      justify-content: center;
-      text-align: center;
     }
     .main-content {
       grid-area: main;
+      justify-content: center;
+      align-items: center;
     }
     .flex-container {
       display: flex;
       column-gap: 10px;
       text-color: wheat;
       font-weight: bold;
+      justify-content: center;
+      align-items: center;
     .nav {
       grid-area: nav;
+      justify-content: center;
+      align-items: center;
     }
     .header {
       grid-area: header;
       color: darkbrown;
       font-weight: bold;
+      justify-content: center;
+      align-items: center;
     }
     ul {
       list-style-type: square;
       color: eggshell;
       text-color: eggshell;
       font-weight: bold;
+      justify-content: center;
+      align-items: center;
     }
     a:link {
       color: eggshell;
     }
     .footer {
       grid-area: footer;
+      justify-content: center;
+      align-items: center;
     }
