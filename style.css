@@ -2,11 +2,6 @@
       font-family: Garamond, serif;
       background-color: saddlebrown;
       display: grid;
-      grid-template-areas:
-        "header header header"
-        "nav    main   main"
-        "nav    main   main"
-        "footer footer footer"
       grid-gap: 1em;
       justify-content: center;
       text-align: center;
