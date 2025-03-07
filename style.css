@@ -29,3 +29,6 @@
       text-color: eggshell;
       font-weight: bold;
     }
+    a:link {
+      color: eggshell;
+    }
