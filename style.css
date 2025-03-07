@@ -8,6 +8,11 @@
       diplay: grid;
       grid-template-columns: auto;
       grid-template-columns: auto;
+      grid-template-areas:
+        "header header header"
+        "nav    main   main"
+        "nav    main   main"
+        "footer footer footer"
       justify-content: center;
       align-items: center;
     }
