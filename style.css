@@ -1,9 +1,4 @@
-    body {
-      font-family: Garamond, serif;
-      background-color: saddlebrown;
-      justify-content: center;
-      align-items: center;
-    }
+
    .grid-container {
       diplay: grid;
       grid-template-columns: 1fr 1fr 1fr;
