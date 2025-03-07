@@ -12,9 +12,6 @@
       column-gap: 10px;
       text-color: wheat;
       font-weight: bold;
-      align-items: center;
-      justify-content: space-around;
-    }
     .nav {
       grid-area: nav;
     }
