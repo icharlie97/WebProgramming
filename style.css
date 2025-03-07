@@ -24,8 +24,6 @@
     }
     .nav {
       grid-area: nav;
-      color: eggshell;
-      font-weight: bold;
     }
     .header {
       grid-area: header;
