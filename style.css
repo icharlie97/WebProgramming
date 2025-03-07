@@ -6,6 +6,11 @@
     }
     .grid-container {
       diplay: grid;
+      grid-template-areas:
+        "header header header"
+        "nav    main   main"
+        "nav    main   main"
+        "footer footer footer"
     }
     .main-content {
       grid-area: main;
