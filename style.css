@@ -2,7 +2,7 @@
       font-family: Garamond, serif;
       background-color: saddlebrown;
       display: grid;
-      grid-template-areas;
+      grid-template-areas:
         "header header header"
         "nav    main   main"
         "nav    main   main"
