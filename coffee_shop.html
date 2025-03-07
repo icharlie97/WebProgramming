@@ -4,7 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Java Haven</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    .main-content {
+    grid-area: main;
+    }
+    .nav {
+      grid-area: nav;
+    }
+    .header {
+      grid-area: header;
+    }
+    .footer {
+      grid-area: footer;
+    }
+    .flex-container {
+      display: flex;
+    }
+   .grid-container {
+      diplay: grid;
+      grid-template-columns: auto;
+      grid-template-rows: repeat(auto-fill, minmax(100vh, 1fr));
+      grid-template-areas:
+        'header header header'
+        'nav main main'
+        'nav main main'
+        'footer footer footer';
+   }
+  </style>
 </head>
 <body>
 <div class="grid-container">
