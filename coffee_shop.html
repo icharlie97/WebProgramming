@@ -4,43 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Java Haven</title>
-  <style>
-  .grid-container {
-      diplay: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto;
-      grid-template-areas:
-        'header header header'
-        'nav main main'
-        'nav main main'
-        'footer footer footer';
-    }
-    .main-content {
-      grid-area: main;
-    }
-    .flex-container {
-      display: flex;
-      column-gap: 10px;
-      text-color: wheat;
-      font-weight: bold;
-    .nav {
-      grid-area: nav;
-    }
-    .header {
-      grid-area: header;
-      color: darkbrown;
-      font-weight: bold;
-    }
-    ul {
-      list-style-type: square;
-    }
-    a:link {
-      color: eggshell;
-    }
-    .footer {
-      grid-area: footer;
-    }
-    </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="grid-container">
