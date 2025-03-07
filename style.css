@@ -1,5 +1,5 @@
-    .main-content {
-      grid-area: main;
+ .main-content {
+    grid-area: main;
     }
     .nav {
       grid-area: nav;
@@ -10,10 +10,7 @@
     .footer {
       grid-area: footer;
     }
-    .flex-container {
-      display: flex;
-    }
-   .grid-container {
+   body {
       diplay: grid;
       grid-template-columns: auto;
       grid-template-rows: repeat(auto-fill, minmax(100vh, 1fr));
@@ -23,3 +20,6 @@
         'nav main main'
         'footer footer footer';
    }
+   .flex-container {
+      display: flex;
+    }
